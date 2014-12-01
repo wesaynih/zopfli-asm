@@ -34,7 +34,7 @@
       <arg line="-s ALLOW_MEMORY_GROWTH=1"/>
       <arg line="--pre-js plain_header.js"/>
       <arg line="${srcfiles}"/>
-      <arg line="export.c"/>
+      <arg line="src/export.c"/>
       <arg line="-o ${bin}/zopfli.debug.js"/>
       <arg line="--closure 0"/>
     </exec>
@@ -57,7 +57,7 @@
       <arg line="-s ALLOW_MEMORY_GROWTH=1"/>
       <arg line="--pre-js plain_header.js"/>
       <arg line="${srcfiles}"/>
-      <arg line="export.c"/>
+      <arg line="src/export.c"/>
       <arg line="-o ${bin}/zopfli.plain.js"/>
       <arg line="--closure 0"/>
     </exec>
